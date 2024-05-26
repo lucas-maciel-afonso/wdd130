@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+body {
+    font-family: var(--paragraph-font);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #212D40;
+    --secondary-color: #0582CA;
+    --accent1-color: #57E2E5;
+    --accent2-color: #E0B1CB;
+
+    --heading-font: "Honk", normal;
+    --paragraph-font: "VT323", normal;
+
+    --nav-background-color: #212D40;
+    --nav-link-color: #0582CA;
+    --nav-hover-link-color: #57E2E5;
+    --nav-hover-background-color: #E0B1CB;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    text-align: center;
+    background-color: var(--accent1-color);
+    padding: 10px 20px;
+}
+
+.logo {
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+}
+
+nav {
+    margin-left: auto;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.hero {
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-size: 36px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.hero article p {
+    margin: 0;
+    color: white;
+}
+
+#inside_article {
+    float: right;
+    margin-left: 20px;
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section h2 {
+    color: #FF6633;
+    border-bottom: 2px solid #FF6633;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+section img {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    color: #333;
+}
+
+footer .sociallinks {
+    margin-top: 10px;
+}
+
+footer .sociallinks a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+footer .sociallinks img {
+    width: 30px;
+    height: 30px;
+}
