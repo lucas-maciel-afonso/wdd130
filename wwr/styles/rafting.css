@@ -193,3 +193,12 @@ footer .sociallinks img {
     width: 30px;
     height: 30px;
 }
+
+#left_p {
+    grid-row-start: 2;
+}
+
+#ad_awaits_you_h2 {
+    grid-column: 1/6;
+    text-align: center;
+}
