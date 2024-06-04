@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
 
+* {
+    max-width: 70rem;
+    margin: auto;
+}
+
 body {
     font-family: var(--paragraph-font);
     margin: 0;
@@ -18,7 +23,7 @@ body {
     --paragraph-font: "VT323", normal;
 
     --nav-background-color: #212D40;
-    --nav-link-color: #0582CA;
+    --nav-link-color: #000000;
     --nav-hover-link-color: #57E2E5;
     --nav-hover-background-color: #E0B1CB;
 }
@@ -263,4 +268,53 @@ footer .sociallinks img {
 
 #wireframe {
     margin-left: 30px;
+}
+
+/* Trips page */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.trip {
+    flex: 1 0 30%;
+    margin: 1em;
+}
+
+.trip img {
+    width: 100%;
+    height: auto;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+}
+
+th, td {
+    padding: 0.5em;
+    border-bottom: 1px solid #ddd;
+}
+
+#wireframe {
+    padding: 10px;
+}
+
+/* Home page */
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}
+.grid-item {
+    border: 1px solid #ddd;
+    padding: 1em;
+    text-align: center;
+}
+.grid-item img {
+    width: 100%;
+    height: auto;
 }
