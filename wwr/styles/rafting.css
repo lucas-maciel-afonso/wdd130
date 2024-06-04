@@ -202,3 +202,63 @@ footer .sociallinks img {
     grid-column: 1/6;
     text-align: center;
 }
+
+/* Company info styles */
+#company-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#company-info h2 {
+    margin-bottom: 15px;
+}
+
+#company-info p {
+    margin-bottom: 10px;
+}
+
+/* Employee profiles styles */
+#employee-profiles {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#employee-profiles figure {
+    text-align: center;
+}
+
+#employee-profiles img {
+    width: 100%;
+}
+
+/* Contact form styles */
+#contact-form {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#contact-form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#wireframe {
+    margin-left: 30px;
+}

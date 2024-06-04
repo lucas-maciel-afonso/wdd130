@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whitewater Rafting Company Contact Us</title>
+    <meta name="description" content="A contact us website.">
+    <meta name="author" content="Lucas Maciel Afonso">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo_whitewater_rafting.png" alt="Whitewater Logo" class="logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    
+    <main>
+        <div id="company-info">
+            <h2>Company Information</h2>
+            <p>Address: ...</p>
+            <p>Phone: ...</p>
+            <p>Email: ...</p>
+            <iframe src="https://www.google.com/maps/embed?..." width="600" height="450"></iframe>
+        </div>
+
+        <div id="employee-profiles">
+            <figure>
+                <img src="images/arthur-humeau-MFelGJfhaxM-unsplash.jpg" alt="Employee profile image of Raft Guide">
+                <figcaption>Raft Guide</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/brooke-cagle-NoRsyXmHGpI-unsplash.jpg" alt="Employee profile image of Photographer">
+                <figcaption>Photographer</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/warren-VVEwJJRRHgk-unsplash.jpg" alt="Employee profile image of Kayak Rental Shop Manager">
+                <figcaption>Kayak Rental Shop Manager</figcaption>
+            </figure>
+        </div>
+
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="message-purpose">Purpose of Message:</label>
+            <input type="radio" id="general-inquiry" name="message-purpose" value="General Inquiry">
+            <label for="general-inquiry">General Inquiry</label>
+            <input type="radio" id="reservation-question" name="message-purpose" value="Reservation Question">
+            <label for="reservation-question">Reservation Question</label>
+            <input type="radio" id="website-suggestion" name="message-purpose" value="Website Suggestion">
+            <label for="website-suggestion">Website Suggestion</label><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea><br>
+
+            <input type="checkbox" id="newsletter" name="newsletter">
+            <label for="newsletter">Please subscribe me to the monthly newsletter</label><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy;2024 | Whitewater | Lucas Maciel</p>
+        <a id="wireframe" href="https://drive.google.com/file/d/1BxlXzYJwxdGp-nE4yPae-EuoZ8rZi5gl/view?usp=sharing">Weriframe</a>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/104498_facebook_icon.svg" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/104501_twitter_bird_icon.svg" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/104466_instagram_icon.svg" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
